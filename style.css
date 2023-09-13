@@ -2,12 +2,32 @@ body {
     margin: auto;
 }
 
-.titulo {
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.header {
     text-align: center;
-    background-color: rgb(23, 23, 39);
-    color:aliceblue;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(34, 7, 75) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro {
@@ -16,15 +36,18 @@ body {
     margin-top: 150px;
     margin-bottom: 150px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .division {
     text-align: center;
-    background-color: rgb(23, 23, 39);
-    color:aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(25, 5, 54) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
     padding: 50px;
+    font-size:x-large;
 }
 
 .videos {
@@ -36,8 +59,9 @@ body {
 
 footer {
     text-align: center;
-    background-color: rgb(23, 23, 39);
-    color:aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(25, 5, 54) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
     padding: 100px;
 }
